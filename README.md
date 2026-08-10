@@ -9,25 +9,6 @@
 Pick the guide that fits your needs:
 
 ### 👥 **For Your Team** (Start Here!)
-📄 **[TEAM_ONBOARDING.md](TEAM_ONBOARDING.md)** — Share this with everyone  
-- 5-minute setup guide
-- Explains what the skill does
-- Shows how to read the output
-- Real-world debugging examples
-
-### ⚡ **Quick & Dirty**
-📄 **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** — Copy-paste commands  
-- One-minute cheat sheet
-- Common issues & fixes
-- Commands to copy/paste
-- Keyboard reference card
-
-### 🎓 **Full Setup & Usage**
-📄 **[SETUP.md](SETUP.md)** — Detailed walkthrough  
-- Step-by-step setup
-- All three usage modes
-- Troubleshooting guide
-- Team best practices
 
 ### 📚 **Complete Documentation**
 📄 **[SKILL.md](SKILL.md)** — Comprehensive reference  
@@ -40,6 +21,8 @@ Pick the guide that fits your needs:
 
 ## 🚀 Quick Start (30 seconds)
 
+## export GRAFANA_SESSION=glsa_c1QCKMKDXwLXaXpE0joBS9nkDmX2LDjM_b6788c2b (if this is set DO NOT GIVE --session flag and value)
+
 ```bash
 # 1. Get Grafana session cookie:
 #    → https://grafana.tools.finbox.in
@@ -47,7 +30,7 @@ Pick the guide that fits your needs:
 #    → Copy the value
 
 # 2. Run the skill:
-/trace-funnel-flow <uuid> --session <your-cookie>
+/trace-funnel-flow <uuid> --session <your-cookie
 
 # 3. Read the report and find where it dropped off ✅
 ```
@@ -102,6 +85,22 @@ Pick the guide that fits your needs:
 ```bash
 /trace-funnel-flow any --type expr --expr '<your-logql>' --session <cookie>
 ```
+
+### other flags 
+```bash
+1.  Detail Levels
+ --detailed  -- to get detailed analysis
+
+2. Time Window Options
+--days 1|7|14|30
+--hours 1|6|24|48|72
+--date 2026-08-05
+
+3. Direct Python Execution
+
+python3 .claude/scripts/trace_funnel_flow_enhanced.py <uuid>
+```
+
 
 ---
 
