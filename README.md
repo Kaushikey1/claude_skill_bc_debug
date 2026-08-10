@@ -21,10 +21,10 @@ Pick the guide that fits your needs:
 
 ## 🚀 Quick Start (30 seconds)
 
-## export GRAFANA_SESSION=glsa_c1QCKMKDXwLXaXpE0joBS9nkDmX2LDjM_b6788c2b (if this is set DO NOT GIVE --session flag and value)
-
 ```bash
 # 1. Get Grafana session cookie:
+#    export GRAFANA_SESSION=glsa_c1QCKMKDXwLXaXpE0joBS9nkDmX2LDjM_b6788c2b (if this is set DO NOT GIVE --session flag and value)
+#.   or
 #    → https://grafana.tools.finbox.in
 #    → DevTools → Application → Cookies → grafana_session
 #    → Copy the value
@@ -164,16 +164,6 @@ If any stage shows ⏳, that's where it failed.
 2. Get a fresh cookie (DevTools → Application → Cookies)
 3. Update your env var: `export GRAFANA_SESSION=<new-cookie>`
 
----
-
-## 🎓 Recommended Reading Order
-
-1. **If you have 5 minutes:** [TEAM_ONBOARDING.md](TEAM_ONBOARDING.md)
-2. **If you have 2 minutes:** [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-3. **If you have 10 minutes:** [SETUP.md](SETUP.md)
-4. **If you need deep dive:** [SKILL.md](SKILL.md)
-
----
 
 ## 🔗 Files
 
