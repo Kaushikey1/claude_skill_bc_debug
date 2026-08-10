@@ -6,9 +6,10 @@
 - 1. Under one folder copy all the bank connect repos
 - 2. Do copy all the file of this folder under .claude/skills/trace-funnel-flow
 - 3. copy the trace_funnel_flow_enhanced.py file to .claude/scripts
-- 4. Start the claude code using "claude" cmd
-- 5. Verify the skill under /skills
-- 6. If found start using it
+- 4. export GRAFANA_SESSION=glsa_c1QCKMKDXwLXaXpE0joBS9nkDmX2LDjM_b6788c2b 
+- 5. Start the claude code using "claude" cmd
+- 6. Verify the skill under /skills
+- 7. If found start using it
 ---
 
 ## 📖 Documentation
