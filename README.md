@@ -9,7 +9,7 @@
 - 4. export GRAFANA_SESSION=glsa_c1QCKMKDXwLXaXpE0joBS9nkDmX2LDjM_b6788c2b 
 - 5. Start the claude code using "claude" cmd
 - 6. Verify the skill under /skills
-- 7. If found start using it
+- 7. If found start using it with /trace-funnel-flow <session_id/entity_id/statement_id>
 ---
 
 ## 📖 Documentation
